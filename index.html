@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="time-tracker">
+      <div class="user">
+        <div class="profile">
+          <img src="./images/image-jeremy.png" alt="user profile picture">
+          <p>Report for</p>
+          <h1>
+            Jeremy Robson
+          </h1>
+        </div>
+        <div class="filters">
+          <button class="daily" data-filter="daily">Daily</button>
+          <button class="monthly active" data-filter="weekly">Weekly</button>
+          <button class="monthly" data-filter="monthly">Monthly</button>
+        </div>
+      </div>
+
+      <div class="card work">
+        <div class="details">
+          <div class="top">
+            <p class="title">Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>
+        </div>
+      </div>
+
+      <div class="card play">
+        <div class="details">
+          <div class="top">
+            <p class="title">Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>    
+        </div>
+      </div>
+
+      <div class="card study">
+        <div class="details">
+          <div class="top">
+            <p class="title">Study</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>    
+        </div>
+      </div>
+
+      <div class="card exercise">
+        <div class="details">
+          <div class="top">
+            <p class="title">Exercise</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>
+        </div>
+      </div>
+
+      <div class="card social">
+        <div class="details">
+          <div class="top">
+            <p class="title">Social</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>
+        </div>
+      </div>
+
+      <div class="card self-care">
+        <div class="details">
+          <div class="top">
+            <p class="title">Self care</p>
+            <img src="./images/icon-ellipsis.svg" alt="options icon">
+          </div>
+          <div class="data"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
